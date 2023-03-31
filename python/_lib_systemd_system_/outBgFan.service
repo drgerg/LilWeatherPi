@@ -1,0 +1,19 @@
+[Unit]
+Description=Sanders LilWeatherPi Circ Fan Controller  outBgFan.service
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/home/greg/python/outBgFan.py
+WorkingDirectory=/home/greg/python/
+StandardOutput=syslog
+StandardError=syslog
+User=greg
+Group=www-data
+#ExecStop = /bin/kill -2 $MAINPID
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s TERM $MAINPID
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target

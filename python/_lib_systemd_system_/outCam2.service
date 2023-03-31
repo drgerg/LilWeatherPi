@@ -1,0 +1,21 @@
+# systemd configuration for v4l2rtspserver
+# /etc/systemd/system/v4l2rtspserver.service
+ 
+[Unit]
+Description=v4l2rtspserver rtsp streaming server
+After=network.target
+ 
+[Service]
+#ExecStartPre=/usr/bin/v4l2-ctl --set-ctrl vertical_flip=1
+#ExecStartPre=/usr/bin/v4l2-ctl --set-ctrl h264_i_frame_period=5
+#ExecStart=/usr/local/bin/v4l2rtspserver -F 15 -W 1280 -H 720
+ExecStartPre=/usr/bin/v4l2-ctl -c white_balance_auto_preset=10
+ExecStart=/usr/local/bin/v4l2rtspserver -W 1280 -H 720
+#ExecReload=/bin/kill -HUP $MAINPID
+Type=simple
+User=greg
+Group=video
+Restart=always
+ 
+[Install]
+WantedBy=multi-user.target

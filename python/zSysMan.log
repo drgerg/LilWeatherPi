@@ -1,0 +1,32 @@
+Sun, 06 Feb 2022 16:26:05 -  - - - - zSysMan.py DATA LOGGING STARTED - - - - 
+Sun, 06 Feb 2022 16:26:05 -   INITIAL CONFIGURATION COMPLETE  
+Sun, 06 Feb 2022 16:26:05 - zsmHOME path is: /home/greg/python
+Sun, 06 Feb 2022 16:32:52 - Found restartSvc file and deleted it. Restarting zSysMan.service
+
+Sun, 06 Feb 2022 16:32:52 - Shutting down gracefully
+Sun, 06 Feb 2022 16:32:52 - That's all folks.  Goodbye
+Sun, 06 Feb 2022 16:32:52 -  - - - - zSysMan.py DATA LOGGING STOPPED BY DESIGN - - - - 
+Sun, 06 Feb 2022 16:32:53 -  - - - - zSysMan.py DATA LOGGING STARTED - - - - 
+Sun, 06 Feb 2022 16:32:53 -   INITIAL CONFIGURATION COMPLETE  
+Sun, 06 Feb 2022 16:32:53 - zsmHOME path is: /home/greg/python
+Sun, 06 Feb 2022 16:34:05 - Found reboot file and deleted it.  Sending reboot command now.
+Sun, 06 Feb 2022 16:34:06 - Shutting down gracefully
+Sun, 06 Feb 2022 16:34:06 - That's all folks.  Goodbye
+Sun, 06 Feb 2022 16:34:06 -  - - - - zSysMan.py DATA LOGGING STOPPED BY DESIGN - - - - 
+Sun, 06 Feb 2022 16:34:46 -  - - - - zSysMan.py DATA LOGGING STARTED - - - - 
+Sun, 06 Feb 2022 16:34:46 -   INITIAL CONFIGURATION COMPLETE  
+Sun, 06 Feb 2022 16:34:46 - zsmHOME path is: /home/greg/python
+Wed, 09 Feb 2022 18:09:55 - Found restartSvc file and deleted it. Restarting zSysMan.service
+
+Wed, 09 Feb 2022 18:09:55 - Shutting down gracefully
+Wed, 09 Feb 2022 18:09:55 - That's all folks.  Goodbye
+Wed, 09 Feb 2022 18:09:55 -  - - - - zSysMan.py DATA LOGGING STOPPED BY DESIGN - - - - 
+Wed, 09 Feb 2022 18:09:56 -  - - - - zSysMan.py DATA LOGGING STARTED - - - - 
+Wed, 09 Feb 2022 18:09:56 -   INITIAL CONFIGURATION COMPLETE  
+Wed, 09 Feb 2022 18:09:56 - zsmHOME path is: /home/greg/python
+Sun, 03 Apr 2022 12:39:43 - Shutting down gracefully
+Sun, 03 Apr 2022 12:39:43 - That's all folks.  Goodbye
+Sun, 03 Apr 2022 12:39:43 -  - - - - zSysMan.py DATA LOGGING STOPPED BY DESIGN - - - - 
+Sun, 03 Apr 2022 13:02:55 -  - - - - zSysMan.py DATA LOGGING STARTED - - - - 
+Sun, 03 Apr 2022 13:02:55 -   INITIAL CONFIGURATION COMPLETE  
+Sun, 03 Apr 2022 13:02:55 - zsmHOME path is: /home/greg/python

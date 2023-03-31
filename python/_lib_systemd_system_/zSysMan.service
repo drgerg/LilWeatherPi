@@ -1,0 +1,21 @@
+
+[Unit]
+Description=DrGergs System Manager for Pi with LCD  zSysManGL.service
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/home/greg/python/zSysMan.py
+WorkingDirectory=/home/greg/python/
+StandardOutput=/home/greg/python/zSysMan.log
+StandardError=/home/greg/python/zSysMan.log
+User=root
+Group=root
+#ExecStop = /bin/kill -2 $MAINPID
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s TERM $MAINPID
+Restart=on-abort
+
+[Install]
+Wants=network-online.target
+WantedBy=multi-user.target
