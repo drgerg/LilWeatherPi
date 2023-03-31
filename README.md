@@ -9,5 +9,5 @@ WeatherPi and LilWeatherPi both have the secondary purpose of providing video fr
 
 LilWeatherPi runs on a Raspberry Pi Zero W.  In the same water-tight box lives two 16550 LiPo cells, a charger, the Arducam, an Adafruit DS3231 RTC, an ADS1115 ADC, a BME280, a DHT22, and a PWM controllable fan.  It's a lot of stuff.
 
-The box I used is a Cantex 5133705 4x4x2 PVC junction box.  The only reason I put that here is that the 3D printed parts in this repository are made to fit that box.
+The box I used is a [Cantex 5133705](https://pvcelectrical.cantexinc.com/4-in-x-4-in-x-2-in-Junction-Box-5133705) 4x4x2 PVC junction box.  The only reason I put that here is that the 3D printed parts in this repository are made to fit that box.
 
