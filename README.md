@@ -3,7 +3,7 @@
 LilWeatherPi primarily exists as a backup for temperature, humidity and atmospheric pressure readings.  
 It also exists as an experiment platform for random rabbit chasing.
 
-There is a pretty decent writeup on www.drgerg.com [here](https://www.drgerg.com/introducing-lilweatherpi.html).
+There is a pretty decent writeup on www.drgerg.com [here](https://www.drgerg.com/introducing-lilweatherpi.html).  The most recent article [is here](https://www.drgerg.com/lilweatherpi-gets-pooped-on.html).
 
 WeatherPi and LilWeatherPi both have the secondary purpose of providing video from outdoors.  They inform me about the weather and they keep an eye on parts of my property that would otherwise be missed by the other cameras around the place.
 
